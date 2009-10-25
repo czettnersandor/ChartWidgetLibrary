@@ -261,6 +261,10 @@ namespace ChartWidgetLibrary
 		
 	}
 	public delegate void TuskeValasztasHandler(ChartDataType cdata);
+
+	
+	
+	// This will assigned as argument to OnTuskeValasztasEvent
 	public class ChartDataType
 	{
 		public ChartDataType(DateTime datum, float val, float meroora)
